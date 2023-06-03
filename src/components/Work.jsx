@@ -8,7 +8,7 @@ const Work = () => {
   const [tab, setTab] = useState([]);
   const [data, setData] = useState(tab);
   useEffect(() => {
-    fetch("/public/portfolio.json")
+    fetch("https://server-guljer77.vercel.app/tabitem")
       .then(res => res.json())
       .then(data => setTab(data));
   }, []);
