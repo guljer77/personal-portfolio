@@ -16,7 +16,7 @@ const Nav = () => {
             className="cursor-pointer flex justify-center items-center w-[60px] h-[60px]"
           >
             <div className="flex flex-col items-center">
-              <BiHomeAlt />
+              <BiHomeAlt className="text-cyan-600" />
               <span className="text-xs">Home</span>
             </div>
           </Link>
@@ -27,7 +27,7 @@ const Nav = () => {
             className="cursor-pointer flex justify-center items-center w-[60px] h-[60px]"
           >
             <div className="flex flex-col items-center">
-              <BiUser />
+              <BiUser className="text-cyan-600" />
               <span className="text-xs">About</span>
             </div>
           </Link>
@@ -38,7 +38,7 @@ const Nav = () => {
             className="cursor-pointer flex justify-center items-center w-[60px] h-[60px]"
           >
             <div className="flex flex-col items-center">
-              <FaBookOpen />
+              <FaBookOpen className="text-cyan-600" />
               <span className="text-xs">Abilities</span>
             </div>
           </Link>
@@ -49,7 +49,7 @@ const Nav = () => {
             className="cursor-pointer flex justify-center items-center w-[60px] h-[60px]"
           >
             <div className="flex flex-col items-center">
-              <BsBriefcase />
+              <BsBriefcase className="text-cyan-600" />
               <span className="text-xs">Portfolio</span>
             </div>
           </Link>
@@ -60,7 +60,7 @@ const Nav = () => {
             className="cursor-pointer flex justify-center items-center w-[60px] h-[60px]"
           >
             <div className="flex flex-col items-center">
-              <BsChatSquare />
+              <BsChatSquare className="text-cyan-600" />
               <span className="text-xs">Contact</span>
             </div>
           </Link>
